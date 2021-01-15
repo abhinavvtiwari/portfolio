@@ -1,0 +1,160 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+  
+    text-align: center;
+  
+    color: gray;
+    background: #d0d0d0;
+  }
+
+  .text-center {
+      text-align: center !important;
+}
+
+
+.pb_2{
+    padding-top: 15rem !important;
+    padding-bottom: 15rem!important;
+}
+.headnav{
+    position: fixed;
+    background: white;
+    width: 100%;
+}
+.cover_text{
+    font-size: 3.6rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: inherit;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+    margin-bottom: 3rem !important;
+}
+.h3{
+    color: white;
+    font-size: 3rem;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro-section {
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 100;
+    margin-bottom: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+    letter-spacing: 0px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+.progress {
+    display: flex;
+    font-size: 0.75rem;
+    background-color: rgb(233, 236, 239);
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(0, 123, 255);
+    transition: width 0.6s ease 0s;
+}
+
+.progress_title {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.b_space{
+    padding-bottom: 20px;
+}
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .mimage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .image:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .project_title {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  .project_description {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    }
+
+    .card_image{
+        height: 100%;
+    }
